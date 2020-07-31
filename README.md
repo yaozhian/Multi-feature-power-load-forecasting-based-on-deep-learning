@@ -4,7 +4,7 @@
 1.	利用上一时刻的电能负荷（power），温度（temperature），湿度（humidity），风速（speed）预测此刻的电能负荷，power_load_forecasting_V1   
 2.	利用上一时刻的电能负荷（power）和此刻的温度（temperature），湿度（humidity），风速（speed）预测此刻的电能负荷，power_load_forecasting_V2   
 3.	利用上一若干时刻的电能负荷（power），温度（temperature），湿度（humidity），风速（speed）预测此刻的电能负荷，power_load_forecasting_V3   
-在进行城市居民电能负荷细度预测时，除了要考虑如上问题时，还需要考虑季节，时间周期等影响因子：  
+#在进行城市居民电能负荷细度预测时，除了要考虑如上问题时，还需要考虑季节，时间周期等影响因子：  
 1.	电力负荷往往具有周期性，夏季，冬季，过渡季（春季和秋季）用户用电量往往差距很大，因此在预测是可以考虑分开预测，power_load_forecasting_V4   
 2.	在各个季节进行预测是，我们还可以按天，周，月进行划分，power_load_forecasting_V5  
 # 多特征预测可以参考Jason Brownlee博士的教程 #
